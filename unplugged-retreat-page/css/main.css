@@ -133,6 +133,7 @@ p {
 
 address {
   font-style: normal;
+ 
 }
 
 .content-wrapper {
@@ -378,6 +379,18 @@ input[type=button] {
 
 }
  
+.map figure {
+  width: 100%;
+  padding-bottom: 125%;
+  position: relative; 
+  overflow: hidden;
+}
+
+.map iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
 .contact-section {
   justify-content: center;
   flex-flow: row wrap;
@@ -683,13 +696,14 @@ About Page
 }
 
 .contact-section .content-wrapper h2 {
-  width: 80%; 
+  width: 100%; 
 }
 
 .contact-content{
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: flex-start;
+
 }
 
 .contact-content h4 {
