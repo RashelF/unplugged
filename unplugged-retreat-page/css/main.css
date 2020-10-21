@@ -63,6 +63,7 @@ img,
 svg,
 video {
   vertical-align: middle;
+  margin-top: 50px;
 }
 
 /*
@@ -255,6 +256,14 @@ footer .social-icons p {
 
 footer .social-icons i{
   font-size: 1.7em;
+  width: 30px;
+  height: 30px;
+  margin: 30px;
+  padding-bottom: 10px;
+  border-radius: 30px;
+  border-color: #527158;
+  border-width: 1px;
+  background: #527158;
 }
 
 footer .copyright {
@@ -371,7 +380,7 @@ input[type=button] {
   line-height: 1;
 }
 .reviews h3 {
-  width: 55%;
+  width: 70%;
   margin: 20px 0;
   
 }
@@ -391,6 +400,7 @@ input[type=button] {
 .map figure {
   width: 100%;
   padding-bottom: 125%;
+  padding-top: inherit;
   position: relative; 
   overflow: hidden;
   height: 0;
